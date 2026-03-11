@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Nirmalkumar R</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#Project" style="--i:4">Project</a>
+            <a href="#resume" style="--i:5">Resume</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nirmalkumar R</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a web Designer with extensive experience for over 3 years.
+                <br>Expertise is to create and design websites, Frontend development, and more...
+            </p>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class="bx bxl-facebook"></i></a>
+                <a href="#" style="--i:8"><i class="bx bxl-instagram"></i></a>
+                <a href="#" style="--i:9"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+            <div>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about reveal" id="about">
+        <div class="about-container">
+            <h2>About <span>Me</span></h2>
+
+            <div class="about-box">
+
+                <h3>Brief Background</h3>
+
+                <p>
+                    Hi, I'm Nirmalkumar R, a passionate Full Stack Developer with strong
+                    skills in both Frontend and Backend development. I enjoy building
+                    modern, responsive, and scalable web applications using technologies
+                    like HTML, CSS, JavaScript, React, Java, and Spring Boot. I love
+                    creating efficient backend systems and clean user-friendly interfaces.
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <h3>Education</h3>
+
+                <p>
+                    <li>Bachelor of Computer Science</li>
+                    <li>DGCT</li>
+                    Graduation Year: 2026
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <h3>Career Objective</h3>
+
+                <p>
+                    To obtain a challenging position in a software development company where
+                    I can apply my programming knowledge, improve my technical skills, and
+                    contribute to innovative projects while growing professionally.
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <h3>Areas of Interest</h3>
+
+                <ul>
+
+                    <li>Frontend Development</li>
+                    <li>Full Stack Web Development</li>
+                    <li>UI / UX Design</li>
+                    <li>Web Application Development</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="skills reveal" id="skills">
+
+        <h2 class="heading">Technical <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <i class='bx bx-code-alt'></i>
+
+                <h3>Programming Languages</h3>
+
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                </ul>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class='bx bx-layer'></i>
+
+                <h3>Frameworks</h3>
+
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>React.js</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class='bx bx-data'></i>
+
+                <h3>Databases</h3>
+
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Oracle</li>
+                </ul>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <i class='bx bx-wrench'></i>
+
+                <h3>Tools</h3>
+
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Postman</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects-section" id="projects">
+
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="carousel-wrapper">
+
+            <button class="nav left">&#10094;</button>
+
+            <div class="projects-carousel" id="carousel">
+
+
+                <!-- Google Clone -->
+                <div class="project-item">
+
+                    <img src="images/project1.jpg" alt="Google Clone">
+
+                    <div class="project-overlay">
+
+                        <h3>Google Clone Page</h3>
+
+                        <p>
+                            A responsive clone of the Google homepage with search bar,
+                            icons and layout similar to the original site.
+                        </p>
+
+                        <p class="tech">HTML • CSS • JavaScript</p>
+
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Calculator -->
+                <div class="project-item">
+
+                    <img src="images/project2.jpg" alt="Calculator App">
+
+                    <div class="project-overlay">
+
+                        <h3>Calculator App</h3>
+
+                        <p>
+                            A modern calculator web application that performs
+                            basic arithmetic operations with interactive UI.
+                        </p>
+
+                        <p class="tech">HTML • CSS • JavaScript</p>
+
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Todo App -->
+                <div class="project-item">
+
+                    <img src="images/project3.jpg" alt="Todo App">
+
+                    <div class="project-overlay">
+
+                        <h3>To-Do App</h3>
+
+                        <p>
+                            Task management application that allows users
+                            to add, edit and delete tasks with progress tracking.
+                        </p>
+
+                        <p class="tech">HTML • CSS • JavaScript</p>
+
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Climate Web App -->
+                <div class="project-item">
+
+                    <img src="images/project4.jpg" alt="Climate App">
+
+                    <div class="project-overlay">
+
+                        <h3>Climate Prediction Web App</h3>
+
+                        <p>
+                            A Python-based web application that analyzes climate
+                            data and predicts environmental conditions.
+                        </p>
+
+                        <p class="tech">Python • Data Analysis • Web App</p>
+
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SkyX Landing Page -->
+                <div class="project-item">
+
+                    <img src="images/project5.jpg" alt="SkyX Landing Page">
+
+                    <div class="project-overlay">
+
+                        <h3>SkyX Landing Page</h3>
+
+                        <p>
+                            A responsive landing page design for a fictional
+                            tech product with modern UI and smooth animations.
+                        </p>
+
+                        <p class="tech">HTML • CSS • JavaScript</p>
+
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <button class="nav right">&#10095;</button>
+
+        </div>
+
+    </section>
+
+    <section class="resume reveal" id="resume">
+
+        <div class="resume-container">
+
+            <h2 class="heading">My <span>Resume</span></h2>
+
+            <div class="resume-card">
+
+                <i class='bx bx-file'></i>
+
+                <h3>My Professional Resume</h3>
+
+                <p>
+                    You can view or download my latest resume to learn more about my
+                    skills, education, and project experience.
+                </p>
+
+                <div class="resume-buttons">
+
+                    <a href="resume.pdf" target="_blank" class="resume-btn view-btn">
+                        View Resume
+                    </a>
+
+                    <a href="resume.pdf" download class="resume-btn download-btn">
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum nobis possimus tenetur quidem fugit?
+                Dolorum cupiditate deleniti perspiciatis ea soluta repellat dignissimos eum assumenda.</p>
+
+            <div class="contact-list">
+                <ul>
+                    <li><i class='bx bxs-send'></i> nirmalkumar76950@gmail.com</li>
+                    <li><i class='bx bxs-phone'></i> 7695824253</li>
+
+                </ul>
+            </div>
+
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject">
+                <textarea name="message" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Nirmalkumar R 2023</p>
+    </div>
+
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
